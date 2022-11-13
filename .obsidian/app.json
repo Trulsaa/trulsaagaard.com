@@ -1,0 +1,8 @@
+{
+  "trashOption": "local",
+  "attachmentFolderPath": "media",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "absolute",
+  "vimMode": true
+}
