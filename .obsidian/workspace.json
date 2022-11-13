@@ -11,10 +11,11 @@
             "id": "1f9625da0b5a5464",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "media/developer spinning up Infrastructure as code.png",
-                "staged": false
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "index.md"
+              }
             }
           },
           {
@@ -141,10 +146,14 @@
   },
   "active": "1f9625da0b5a5464",
   "lastOpenFiles": [
+    "media/favicon for T.png",
+    "media/favicon/mstile-150x150.png",
     "index.md",
+    "contact.md",
+    "media/favicon/android-chrome-512x512.png",
+    "media/favicon/android-chrome-192x192.png",
     "developer spinning up Infrastructure as code.png",
     "developer spinning up Infrastructure as code.png.md",
-    "contact.md",
     "_posts/2016-05-20-testing.md",
     "media/developer spinning up Infrastructure as code.png"
   ]

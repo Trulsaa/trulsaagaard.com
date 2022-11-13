@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-![](media/favicon%20for%20T.png)
 
 her kan jeg skrive noe
 
