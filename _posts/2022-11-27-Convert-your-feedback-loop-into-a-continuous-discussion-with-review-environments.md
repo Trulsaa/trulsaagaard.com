@@ -10,7 +10,7 @@ Wouldn't it be fantastic if everyone on the team, with all of their diverse skil
 
 Review environments, also known as ephemeral environments or preview environments. A review environment is a full deployment of an application stack, representing the latest changes made to a branch connected to a Merge Request (MR). It lives alongside the MR and provides a way to see the changes made in that MR from the perspective of the end user. The deployment of the review environments is done using the same automation that is used when deploying to production.
 
-![](media/Review%20app%20branch%20strategy.excalidraw.png)
+![](/media/Review%20app%20branch%20strategy.excalidraw.png)
 
 ## Prerequisites
 

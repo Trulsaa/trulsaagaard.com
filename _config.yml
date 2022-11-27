@@ -29,6 +29,8 @@ minima:
 #header_pages:
 # - about.md
 
+google_analytics: G-S30ETRXR0W
+
 # Build settings
 remote_theme: jekyll/minima
 
