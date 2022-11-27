@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md"
               }
             }
           },
@@ -146,14 +146,15 @@
   },
   "active": "1f9625da0b5a5464",
   "lastOpenFiles": [
+    "_posts/2022-11-27 Convert your feedback loop into a continuous discussion with review environments.md",
+    "_posts/2016-05-20-testing.md",
+    "index.md",
     "media/favicon for T.png",
     "media/favicon/mstile-150x150.png",
-    "index.md",
     "contact.md",
     "media/favicon/android-chrome-512x512.png",
     "media/favicon/android-chrome-192x192.png",
     "developer spinning up Infrastructure as code.png",
-    "developer spinning up Infrastructure as code.png.md",
-    "media/developer spinning up Infrastructure as code.png"
+    "developer spinning up Infrastructure as code.png.md"
   ]
 }
