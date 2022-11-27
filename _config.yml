@@ -32,6 +32,8 @@ minima:
 # Build settings
 remote_theme: jekyll/minima
 
+google_analytics: G-S30ETRXR0W
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
