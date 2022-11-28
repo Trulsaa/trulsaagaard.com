@@ -2,8 +2,6 @@
 layout: home
 ---
 
-## Hey, I'm Truls Aagaard
-
 I'm a full Stack developer from Norway 🇳🇴.
 
 I work in a consultentancy called [Alv](https://www.alv.no) in Oslo.
