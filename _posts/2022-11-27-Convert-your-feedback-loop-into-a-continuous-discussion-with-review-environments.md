@@ -4,7 +4,7 @@ title: "Convert your feedback loop into a continuous discussion with review envi
 categories: DevOps
 ---
 
-Wouldn't it be fantastic if everyone on the team, with all of their diverse skills and knowledge on different parts of an issue, could work on issues at the same time? All of the skills are needed to get tasks from idea to production. This means that splitting the work over time only makes it take longer. Review environments makes it possible for everyone on the team to work on the task without impeeding each other's work, speeding up throughput significantly. It this sounds interesting, I try to highlight the benefits and how to in this article.
+Wouldn't it be fantastic if everyone on the team, with all of their diverse skills and knowledge on different parts of an issue, could work on issues at the same time? All of the skills are needed to get tasks from idea to production. This means that splitting the work over time only makes it take longer. Review environments makes it possible for everyone on the team to work on the task without impeeding each other's work, speeding up throughput significantly. If this sounds interesting, I try to highlight the benefits and how to in this article.
 
 ## Precisely what is a review environment?
 
