@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "4069a8b7768001c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27f736cf78cbeb0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "629fb44293dca67d",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
+                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
+                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md"
+                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
               }
             }
           },
@@ -142,19 +161,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "1f9625da0b5a5464",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "27f736cf78cbeb0c",
   "lastOpenFiles": [
-    "media/Review app branch strategy.excalidraw.png",
     "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
+    "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+    "media/Review app branch strategy.excalidraw.png",
     "_posts/2022-11-27 Convert your feedback loop into a continuous discussion with review environments.md",
     "_posts/2016-05-20-testing.md",
     "index.md",
     "media/favicon for T.png",
     "media/favicon/mstile-150x150.png",
     "contact.md",
-    "media/favicon/android-chrome-512x512.png",
-    "media/favicon/android-chrome-192x192.png"
+    "media/favicon/android-chrome-512x512.png"
   ]
 }
