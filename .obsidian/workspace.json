@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "32ea6fea966650c2",
+        "id": "634eea2f7d24b6d3",
         "type": "tabs",
         "children": [
           {
-            "id": "1f9625da0b5a5464",
+            "id": "3039350e722dd151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "4069a8b7768001c1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "27f736cf78cbeb0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
+                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
               }
             }
           },
@@ -170,20 +152,46 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "27f736cf78cbeb0c",
+  "active": "3039350e722dd151",
   "lastOpenFiles": [
     "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
-    "_posts/2022-11-27-Konverter-tilbakemeldingssløyfen-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+    "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+    "textgenerator/prompts/dalle-2/getPhoto.md",
+    "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
+    "textgenerator/prompts/dalle-2/artBauhaus.md",
+    "textgenerator/prompts/dalle-2/quaTiltShift.md",
+    "textgenerator/prompts/dalle-2/artStock.md",
+    "textgenerator/prompts/dalle-2/qua35mm.md",
+    "textgenerator/prompts/dalle-2/artUkiyoe.md",
+    "textgenerator/prompts/dalle-2/artPsychedelic.md",
+    "textgenerator/prompts/dalle-2/modFanart.md",
+    "textgenerator/prompts/dalle-2/artSalvadorDali.md",
+    "textgenerator/prompts/dalle-2/art3D.md",
+    "textgenerator/prompts/dalle-2/quaCinematic.md",
+    "textgenerator/prompts/dalle-2/artSynthwave.md",
+    "textgenerator/prompts/dalle-2/ligCinematic.md",
+    "textgenerator/prompts/dalle-2/modDetailed.md",
+    "textgenerator/prompts/dalle-2/qua85mm.md",
+    "textgenerator/prompts/dalle-2/artDeco.md",
+    "textgenerator/prompts/dalle-2/modArtStation.md",
+    "textgenerator/prompts/dalle-2/artSteampunk.md",
+    "textgenerator/prompts/dalle-2/artColoringBook.md",
+    "textgenerator/prompts/dalle-2/artModern.md",
+    "textgenerator/prompts/dalle-2/artLowPoly.md",
+    "textgenerator/prompts/dalle-2/artBanksy.md",
+    "textgenerator/prompts/dalle-2/artGraffiti.md",
+    "textgenerator/prompts/dalle-2",
+    "textgenerator/prompts/default",
+    "textgenerator/prompts",
+    "textgenerator",
     "media/Review app branch strategy.excalidraw.png",
-    "_posts/2022-11-27 Convert your feedback loop into a continuous discussion with review environments.md",
-    "_posts/2016-05-20-testing.md",
-    "index.md",
     "media/favicon for T.png",
     "media/favicon/mstile-150x150.png",
-    "contact.md",
     "media/favicon/android-chrome-512x512.png"
   ]
 }

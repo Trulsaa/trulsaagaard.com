@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48bcb1e0811ca6af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
           }
         }
       }
@@ -123,6 +135,8 @@
   },
   "active": "ea9dc75aefcde500",
   "lastOpenFiles": [
+    "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
+    "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
     "contact.html.md",
     "README.md",
     "contact.md"
