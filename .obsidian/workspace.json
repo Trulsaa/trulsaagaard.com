@@ -11,12 +11,8 @@
             "id": "3039350e722dd151",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "629fb44293dca67d",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
-              }
+              "state": {}
             }
           },
           {
@@ -152,15 +143,14 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "3039350e722dd151",
   "lastOpenFiles": [
-    "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
+    "Untitled.canvas",
     "_posts/2023-04-06-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
+    "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
     "textgenerator/prompts/dalle-2/getPhoto.md",
     "textgenerator/prompts/dalle-2/artChildrenDrawing.md",
     "textgenerator/prompts/dalle-2/artBauhaus.md",
@@ -184,7 +174,6 @@
     "textgenerator/prompts/dalle-2/artModern.md",
     "textgenerator/prompts/dalle-2/artLowPoly.md",
     "textgenerator/prompts/dalle-2/artBanksy.md",
-    "textgenerator/prompts/dalle-2/artGraffiti.md",
     "textgenerator/prompts/dalle-2",
     "textgenerator/prompts/default",
     "textgenerator/prompts",
