@@ -4,7 +4,7 @@ title: "Konverter din feedback loop til en kontinuerlig diskusjon med review-mil
 categories: DevOps
 ---
 
-> [!summary] tl:dr - Hopp til headingen **Forutsetning** for å starte rette på hvordan og hva som skal til for å få satt opp review-miljøer.
+>tl:dr - Hopp til headingen **Forutsetning** for å starte rette på hvordan og hva som skal til for å få satt opp review-miljøer.
 
 En av de vanlige problemene som utviklere møter er hvordan de skal teste kodeendringene sine før de merger det inn i hoved branchen. Testing på en lokal maskin eller et delt utviklings-miljø kan være upålitelig, tidkrevende og utsatt for feil. Utviklere kan støte på problemer som uforenlige avhengigheter, motstridende konfigurasjoner eller manglende data. Videre kan testing på en delt server forårsake forstyrrelser med andre utvikleres arbeid eller påvirke ytelsen til serveren. Disse smertepunktene kan føre til frustrasjon, forsinkelser og dårlig kodekvalitet.
 
