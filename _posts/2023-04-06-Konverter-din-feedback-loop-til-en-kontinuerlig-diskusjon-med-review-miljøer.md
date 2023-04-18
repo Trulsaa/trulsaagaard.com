@@ -32,7 +32,7 @@ Utviklere som går igjennom koden kan **kontekstualisere endringene i koden**. F
 
 ## Forutsetninger
 
-Å lage review-miljøer betyr at N antall unike miljøer kommer til å bli opprettet og oppdatert hundrevis av ganger om dagen. Det sier seg selv at bygging, test og deployment må være automatisert. Dette er en liste over krav som må være på plass når du setter opp reiview-miljøer for en nett-applikasjon.
+Å lage review-miljøer betyr at N antall unike miljøer kommer til å bli opprettet og oppdatert hundrevis av ganger om dagen. Det sier seg selv at bygging, test og deployment må være automatisert. Dette er en liste over krav som må være på plass når du setter opp review-miljøer for en nett-applikasjon.
 
 - Helautomatisk bygging og distribusjon
 - Dupliserbar database med testdata
