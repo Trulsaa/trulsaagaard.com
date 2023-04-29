@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f0e7398e67f933b5",
+        "id": "a53c1c88b490d753",
         "type": "tabs",
         "children": [
           {
-            "id": "ea9dc75aefcde500",
+            "id": "d78b5f1e73fa6446",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48bcb1e0811ca6af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,15 +107,22 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md"
-          }
+          "state": {}
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "ea9dc75aefcde500",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d78b5f1e73fa6446",
   "lastOpenFiles": [
     "_posts/2022-11-27-Convert-your-feedback-loop-into-a-continuous-discussion-with-review-environments.md",
     "_posts/2022-11-27-Konverter-din-feedback-loop-til-en-kontinuerlig-diskusjon-med-review-miljøer.md",

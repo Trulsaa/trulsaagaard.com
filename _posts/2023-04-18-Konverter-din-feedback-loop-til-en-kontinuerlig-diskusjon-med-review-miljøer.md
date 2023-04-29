@@ -4,11 +4,11 @@ title: "Konverter din feedback loop til en kontinuerlig diskusjon med review-mil
 categories: DevOps
 ---
 
->tl:dr - Hopp til headingen **Forutsetning** for å starte rette på hvordan og hva som skal til for å få satt opp review-miljøer.
-
 En av de vanlige problemene som utviklere møter er hvordan de skal teste kodeendringene sine før de merger det inn i hoved branchen. Testing på en lokal maskin eller et delt utviklings-miljø kan være upålitelig, tidkrevende og utsatt for feil. Utviklere kan støte på problemer som uforenlige avhengigheter, motstridende konfigurasjoner eller manglende data. Videre kan testing på en delt server forårsake forstyrrelser med andre utvikleres arbeid eller påvirke ytelsen til serveren. Disse smertepunktene kan føre til frustrasjon, forsinkelser og dårlig kodekvalitet.
 
 Ville det ikke vært fantastisk om alle på teamet, med all deres mangfoldige ferdigheter og kunnskap om ulike deler av en oppgave, kunne jobbe med den samtidig? All kompetansen er nødvendig for å få oppgaver fra idé til produksjon. Det betyr at oppdeling av arbeidet over tid bare gjør at det tar lengre tid å få det ferdig. Review-miljøer gjør det mulig for alle på teamet å jobbe med oppgaven uten å hindre hverandres arbeid, noe som øker hastigheten betydelig. Hvis dette høres interessant ut, les videre. I denne artikkelen forsøker jeg å beskrive fordelene ved å benytte review-miljøer.
+
+>tl:dr - Hopp til headingen **Forutsetning** for å starte rette på hvordan og hva som skal til for å få satt opp review-miljøer.
 
 ## Nøyaktig hva er et Review-miljø?
 
