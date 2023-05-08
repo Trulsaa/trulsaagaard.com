@@ -6,7 +6,7 @@ categories: DevOps
 
 En av de vanlige problemene som utviklere møter er hvordan de skal teste kodeendringene sine før de merger det inn i hoved branchen. Testing på en lokal maskin eller et delt utviklings-miljø kan være upålitelig, tidkrevende og utsatt for feil. Utviklere kan støte på problemer som uforenlige avhengigheter, motstridende konfigurasjoner eller manglende data. Videre kan testing på en delt server forårsake forstyrrelser med andre utvikleres arbeid eller påvirke ytelsen til serveren. Disse smertepunktene kan føre til frustrasjon, forsinkelser og dårlig kodekvalitet.
 
-Ville det ikke vært fantastisk om alle på teamet, med all deres mangfoldige ferdigheter og kunnskap om ulike deler av en oppgave, kunne jobbe med den samtidig? All kompetansen er nødvendig for å få oppgaver fra idé til produksjon. Det betyr at oppdeling av arbeidet over tid bare gjør at det tar lengre tid å få det ferdig. Review-miljøer gjør det mulig for alle på teamet å jobbe med oppgaven uten å hindre hverandres arbeid, noe som øker hastigheten betydelig. Hvis dette høres interessant ut, les videre. I denne artikkelen forsøker jeg å beskrive fordelene ved å benytte review-miljøer.
+Ville det ikke vært bedre om alle på teamet kunne jobbet med oppgaven samtidig? Review-miljøer gjør det mulig for alle på teamet å jobbe med oppgaven uten å hindre hverandres arbeid, noe som øker effektiviteten betydelig. Hvis dette høres interessant ut, les videre. Jeg har personlig veldig gode erfaringer med review-miljøer. Jeg vil i denne bloggposten beskrive de viktigste fordelene.
 
 >tl:dr - Hopp til headingen **Forutsetning** for å starte rette på hvordan og hva som skal til for å få satt opp review-miljøer.
 
@@ -18,7 +18,7 @@ På engelsk kan *Review-miljøer* også være kjent som review environments, eph
 
 ## Fordelen
 
-Den største fordelen med review-miljøer er teammedlemmenes tilfredshet. Dette kommer av en teamdynamikk der alle medlemmene på teamet kan samarbeide om samme funksjon samtidig. Dette reduserer kognitiv belastning betraktelig ved å redusere kontekstbytter. Resultatet er raskere utvikling, og et team som får en følelse av å oppnå noe sammen.
+Den største fordelen med review-miljøer er teammedlemmenes tilfredshet - nettopp fordi alle i teamet kan samarbeide om samme funksjon samtidig. Dette reduserer kognitiv belastning betraktelig ved å redusere kontekstbytter. Resultatet er raskere utvikling, og et team som får en følelse av å oppnå noe sammen.
 
 Review-miljøer muliggjør **parallellisering av utvikling og tilbakemelding**. Utviklere kan fikse feil når problemet er friskt i minnet. Når utvikleren tenker at en løsning er oppnådd, pushes koden og det lages en PR med et review-miljø. Samtidig som utviklerene skriver noen unit-tester, sjekker en tester om problemet er løst i review-miljøet samtidig som en annen utvikler vurderer koden. Tilbakemeldingen blir derfor gitt samtidig som utvikleren fortsatt jobber med koden. Dette har i flere tilfeller resultert i tilbakemeldinger som er blitt diskutert og fikset i løpet av minutter etter at koden først ble skrevet.
 
