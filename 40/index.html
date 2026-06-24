@@ -230,6 +230,17 @@
     .cal-btn:hover { border-color: var(--accent); background: var(--accent-light); }
 
     /* ── INFO-KORT ── */
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 540px) {
+      .card-grid { grid-template-columns: 1fr; }
+    }
+
     .info-card {
       border: 1px solid var(--border);
       border-radius: 12px;
@@ -379,7 +390,7 @@
     </div>
 
     <!-- KLESKODE OG GAVE -->
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 2.5rem;">
+    <div class="card-grid">
       <div class="info-card">
         <div class="info-title">👔 Kleskode</div>
         <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
