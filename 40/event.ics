@@ -4,11 +4,22 @@ PRODID:-//trulsaagaard.com//40//NO
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
+UID:truls40-badstu@trulsaagaard.com
 DTSTART:20261003T140000Z
+DTEND:20261003T160000Z
+SUMMARY:Truls 40 – Badstu på Sagene folkebad
+DESCRIPTION:Del av 40-årsfeiringen til Truls.\n\ntrulsaagaard.com/40
+LOCATION:Sagene folkebad\, Sandakerveien 3\, 0473 Oslo
+URL:https://trulsaagaard.com/40
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:truls40-mysterud@trulsaagaard.com
+DTSTART:20261003T160000Z
 DTEND:20261003T230000Z
-SUMMARY:Truls fyller 40 🎉
-DESCRIPTION:Badstu på Sagene folkebad kl. 16\, etterfulgt av samling på Mysterud Bar (Arendalsgata 18) fra kl. 18. Pizza fra Jungel Pizza\, snacks og velkomstdrink.\n\ntrulsaagaard.com/40
-LOCATION:Sagene folkebad (Sandakerveien 3) & Mysterud Bar (Arendalsgata 18)\, Oslo
+SUMMARY:Truls 40 – Samling på Mysterud Bar
+DESCRIPTION:Pizza fra Jungel Pizza\, snacks og velkomstdrink.\n\ntrulsaagaard.com/40
+LOCATION:Mysterud Bar\, Arendalsgata 18\, 0463 Oslo
 URL:https://trulsaagaard.com/40
 STATUS:CONFIRMED
 END:VEVENT
