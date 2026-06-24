@@ -199,6 +199,47 @@
       line-height: 1.5;
     }
 
+    .cal-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .cal-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .cal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem;
+    }
+
+    .cal-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--fg);
+      font-size: 0.88rem;
+      font-weight: 500;
+      background: var(--card);
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .cal-btn:hover {
+      border-color: var(--accent);
+      background: var(--accent-light);
+    }
+
+    .cal-icon { font-size: 1.1rem; flex-shrink: 0; }
+
     .divider {
       border: none;
       border-top: 1px solid var(--border);
@@ -269,6 +310,24 @@
 
     <div class="food-note">
       🍕 På Mysterud blir det pizza fra <a href="https://www.jungelpizza.no/jungel-pizza-sagene/" target="_blank" rel="noopener" style="color:var(--accent);">Jungel Pizza</a>, snacks og en velkomstdrink. Ingen grunn til å spise før du kommer.
+    </div>
+
+    <div class="cal-section">
+      <div class="cal-label">Legg til i kalender</div>
+      <div class="cal-grid">
+        <a class="cal-btn" href="webcal://trulsaagaard.com/40/event.ics">
+          <span class="cal-icon">🍎</span> Apple Calendar
+        </a>
+        <a class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Truls+fyller+40+%F0%9F%8E%89&dates=20261003T140000Z%2F20261003T210000Z&details=Badstu+p%C3%A5+Sagene+folkebad+kl.+16%2C+etterfulgt+av+samling+p%C3%A5+Mysterud+Bar+(Arendalsgata+18)+fra+kl.+18.+Pizza+fra+Jungel+Pizza%2C+snacks+og+velkomstdrink.&location=Sagene%2C+Oslo" target="_blank" rel="noopener">
+          <span class="cal-icon">📅</span> Google Calendar
+        </a>
+        <a class="cal-btn" href="https://outlook.live.com/calendar/0/deeplink/compose?subject=Truls+fyller+40&startdt=2026-10-03T16%3A00%3A00&enddt=2026-10-03T23%3A00%3A00&body=Badstu+p%C3%A5+Sagene+folkebad+kl.+16%2C+etterfulgt+av+samling+p%C3%A5+Mysterud+Bar+(Arendalsgata+18)+fra+kl.+18.&location=Arendalsgata+18%2C+Oslo" target="_blank" rel="noopener">
+          <span class="cal-icon">📧</span> Outlook
+        </a>
+        <a class="cal-btn" href="https://calendar.yahoo.com/?v=60&title=Truls+fyller+40&st=20261003T140000Z&et=20261003T210000Z&desc=Badstu+p%C3%A5+Sagene+folkebad+kl.+16%2C+etterfulgt+av+samling+p%C3%A5+Mysterud+Bar+(Arendalsgata+18)+fra+kl.+18.&in_loc=Sagene%2C+Oslo" target="_blank" rel="noopener">
+          <span class="cal-icon">📆</span> Yahoo Calendar
+        </a>
+      </div>
     </div>
 
     <a class="cta" href="https://oslobadstuforening.no/en/sagene-folkebad/" target="_blank" rel="noopener">
