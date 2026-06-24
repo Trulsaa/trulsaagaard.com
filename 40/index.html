@@ -192,6 +192,34 @@
       display: block;
     }
 
+    .walking-links {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: 0.75rem;
+    }
+
+    .walking-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.6rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      text-decoration: none;
+      color: var(--fg);
+      font-size: 0.82rem;
+      font-weight: 500;
+      background: var(--card);
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .walking-btn:hover {
+      border-color: var(--accent);
+      background: var(--accent-light);
+    }
+
     .cta {
       display: block;
       width: 100%;
@@ -335,6 +363,15 @@
           title="Mysterud Bar kart">
         </iframe>
       </div>
+    </div>
+
+    <div class="walking-links">
+      <a class="walking-btn" href="https://maps.apple.com/?saddr=Sandakerveien+3,+Oslo&daddr=Arendalsgata+18,+Oslo&dirflg=w" target="_blank" rel="noopener">
+        🍎 Gå-rute i Apple Maps
+      </a>
+      <a class="walking-btn" href="https://maps.google.com/maps?saddr=Sandakerveien+3,+0473+Oslo&daddr=Arendalsgata+18,+0463+Oslo&dirflg=w" target="_blank" rel="noopener">
+        📍 Gå-rute i Google Maps
+      </a>
     </div>
 
     <div class="food-note">
