@@ -43,9 +43,7 @@
       margin: 0 auto;
     }
 
-    .header {
-      margin-bottom: 2.5rem;
-    }
+    .header { margin-bottom: 2.5rem; }
 
     .eyebrow {
       font-size: 0.8rem;
@@ -64,10 +62,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .subtitle {
-      font-size: 1rem;
-      color: var(--muted);
-    }
+    .subtitle { font-size: 1rem; color: var(--muted); }
 
     .intro {
       font-size: 1.05rem;
@@ -102,9 +97,7 @@
       align-items: start;
     }
 
-    .program-item:first-of-type {
-      border-top: none;
-    }
+    .program-item:first-of-type { border-top: none; }
 
     .time {
       font-size: 0.85rem;
@@ -116,19 +109,45 @@
     .event-name {
       font-weight: 600;
       font-size: 0.95rem;
-      margin-bottom: 0.2rem;
+      margin-bottom: 0.25rem;
     }
 
     .event-detail {
       font-size: 0.85rem;
       color: var(--muted);
+      line-height: 1.6;
     }
 
     .event-detail a {
-      color: var(--muted);
-      text-decoration: underline;
-      text-underline-offset: 2px;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-top: 0.2rem;
     }
+
+    .event-detail a:hover { text-decoration: underline; }
+
+    .map-links {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .map-link {
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0.2rem 0.6rem;
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      opacity: 0.8;
+      transition: opacity 0.15s;
+    }
+
+    .map-link:hover { opacity: 1; }
 
     .food-note {
       font-size: 0.9rem;
@@ -139,6 +158,21 @@
       border-radius: 12px;
       padding: 1.1rem 1.25rem;
       margin-bottom: 2.5rem;
+    }
+
+    .map-wrapper {
+      margin-bottom: 2.5rem;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      height: 240px;
+    }
+
+    .map-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
     }
 
     .cta {
@@ -201,7 +235,11 @@
           <div class="event-name">Badstu 🧖</div>
           <div class="event-detail">
             Sagene folkebad<br>
-            <a href="https://maps.apple.com/?address=Sandakerveien+3,+Oslo" target="_blank" rel="noopener">Sandakerveien 3, Oslo</a>
+            Sandakerveien 3, 0473 Oslo
+            <div class="map-links">
+              <a class="map-link" href="https://maps.apple.com/?q=Sagene+folkebad&address=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Apple Maps</a>
+              <a class="map-link" href="https://maps.google.com/?q=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Google Maps</a>
+            </div>
           </div>
         </div>
       </div>
@@ -210,10 +248,23 @@
         <div>
           <div class="event-name">Samling på Mysterud Bar 🍕</div>
           <div class="event-detail">
-            <a href="https://maps.apple.com/?address=Mysterud+Bar,+Oslo" target="_blank" rel="noopener">Sagene, Oslo</a>
+            Arendalsgata 18, 0463 Oslo
+            <div class="map-links">
+              <a class="map-link" href="https://maps.apple.com/?q=Mysterud+Bar&address=Arendalsgata+18,+0463+Oslo" target="_blank" rel="noopener">Apple Maps</a>
+              <a class="map-link" href="https://maps.google.com/?q=Mysterud+Bar,+Arendalsgata+18,+Oslo" target="_blank" rel="noopener">Google Maps</a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="map-wrapper">
+      <iframe
+        src="https://maps.google.com/maps?q=Mysterud+Bar,+Arendalsgata+18,+Oslo&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mysterud Bar kart">
+      </iframe>
     </div>
 
     <div class="food-note">
