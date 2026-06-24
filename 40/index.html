@@ -43,6 +43,7 @@
       margin: 0 auto;
     }
 
+    /* ── HEADER ── */
     .header { margin-bottom: 2.5rem; }
 
     .eyebrow {
@@ -62,20 +63,14 @@
       margin-bottom: 0.5rem;
     }
 
-    .subtitle { font-size: 1rem; color: var(--muted); }
+    .subtitle { font-size: 1rem; color: var(--muted); margin-bottom: 2.5rem; }
 
-    .intro {
-      font-size: 1.05rem;
-      line-height: 1.75;
-      margin-bottom: 2.5rem;
-      color: var(--fg);
-    }
-
+    /* ── PROGRAM ── */
     .program {
       border: 1px solid var(--border);
       border-radius: 12px;
       overflow: hidden;
-      margin-bottom: 2.5rem;
+      margin-bottom: 1rem;
     }
 
     .program-header {
@@ -118,21 +113,10 @@
       line-height: 1.6;
     }
 
-    .event-detail a {
-      color: var(--accent);
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.25rem;
-      margin-top: 0.2rem;
-    }
-
-    .event-detail a:hover { text-decoration: underline; }
-
     .map-links {
       display: flex;
-      gap: 0.75rem;
-      margin-top: 0.4rem;
+      gap: 0.6rem;
+      margin-top: 0.5rem;
       flex-wrap: wrap;
     }
 
@@ -149,6 +133,7 @@
 
     .map-link:hover { opacity: 1; }
 
+    /* ── MAT-NOTAT ── */
     .food-note {
       font-size: 0.9rem;
       line-height: 1.6;
@@ -160,56 +145,10 @@
       margin-bottom: 2.5rem;
     }
 
-    .map-card {
-      margin-bottom: 0.75rem;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-    }
+    .food-note a { color: var(--accent); text-decoration: none; }
+    .food-note a:hover { text-decoration: underline; }
 
-    .map-label {
-      padding: 0.5rem 0.85rem;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--muted);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .map-card iframe {
-      width: 100%;
-      height: 280px;
-      border: 0;
-      display: block;
-    }
-
-    .walking-links {
-      display: flex;
-      gap: 0.6rem;
-      margin-top: 0.75rem;
-    }
-
-    .walking-btn {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.4rem;
-      padding: 0.6rem 0.75rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      text-decoration: none;
-      color: var(--fg);
-      font-size: 0.82rem;
-      font-weight: 500;
-      background: var(--card);
-      transition: border-color 0.15s, background 0.15s;
-    }
-
-    .walking-btn:hover {
-      border-color: var(--accent);
-      background: var(--accent-light);
-    }
-
+    /* ── BOOKING ── */
     .cta {
       display: block;
       width: 100%;
@@ -221,7 +160,7 @@
       text-align: center;
       text-decoration: none;
       border-radius: 10px;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       transition: opacity 0.15s;
     }
 
@@ -239,13 +178,13 @@
       color: var(--muted);
       text-align: center;
       line-height: 1.5;
-    }
-
-    .cal-section {
       margin-bottom: 2.5rem;
     }
 
-    .cal-label {
+    /* ── KALENDER ── */
+    .cal-section { margin-bottom: 2.5rem; }
+
+    .section-label {
       font-size: 0.75rem;
       font-weight: 600;
       letter-spacing: 0.08em;
@@ -270,14 +209,9 @@
       margin-bottom: 1rem;
     }
 
-    .cal-apple:hover {
-      border-color: var(--accent);
-      background: var(--accent-light);
-    }
+    .cal-apple:hover { border-color: var(--accent); background: var(--accent-light); }
 
-    .cal-event-group {
-      margin-bottom: 0.85rem;
-    }
+    .cal-event-group { margin-bottom: 0.85rem; }
 
     .cal-event-label {
       font-size: 0.8rem;
@@ -308,16 +242,14 @@
       transition: border-color 0.15s, background 0.15s;
     }
 
-    .cal-btn:hover {
-      border-color: var(--accent);
-      background: var(--accent-light);
-    }
+    .cal-btn:hover { border-color: var(--accent); background: var(--accent-light); }
 
+    /* ── INFO-KORT ── */
     .info-cards {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 0.75rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 0.75rem;
     }
 
     @media (max-width: 420px) {
@@ -367,15 +299,16 @@
     }
 
     .price-row:last-of-type { border-bottom: none; }
-
     .price-row span:last-child { font-weight: 600; color: var(--fg); }
 
+    /* ── KOLLEKTIV + KART ── */
     .transit-card {
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 1rem 1.1rem;
       background: var(--card);
       margin-bottom: 0.75rem;
+      margin-top: 2.5rem;
     }
 
     .transit-title {
@@ -409,6 +342,29 @@
       min-width: 2rem;
     }
 
+    .map-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 2.5rem;
+    }
+
+    .map-label {
+      padding: 0.5rem 0.85rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .map-card iframe {
+      width: 100%;
+      height: 280px;
+      border: 0;
+      display: block;
+    }
+
+    /* ── KONTAKT ── */
     .divider {
       border: none;
       border-top: 1px solid var(--border);
@@ -425,18 +381,15 @@
 </head>
 <body>
   <main>
+
+    <!-- HEADER -->
     <div class="header">
       <div class="eyebrow">Lørdag 3. oktober 2026</div>
       <h1>Truls fyller 40 🎉</h1>
-      <p class="subtitle">Du er invitert til å feire!</p>
     </div>
+    <p class="subtitle">Badstu, pizza og god stemning – du er invitert!</p>
 
-    <p class="intro">
-      Selve dagen er søndag 4. oktober, men vi feirer kvelden før – lørdag 3. oktober.
-      Planen er badstu på Sagene folkebad, etterfulgt av samling på Mysterud Bar. Det blir
-      pizza, snacks og god stemning.
-    </p>
-
+    <!-- PROGRAM -->
     <div class="program">
       <div class="program-header">Program</div>
       <div class="program-item">
@@ -444,8 +397,7 @@
         <div>
           <div class="event-name">Badstu 🧖</div>
           <div class="event-detail">
-            Sagene folkebad<br>
-            Sandakerveien 3, 0473 Oslo
+            Sagene folkebad · Sandakerveien 3, 0473 Oslo
             <div class="map-links">
               <a class="map-link" href="https://maps.apple.com/?q=Sagene+folkebad&address=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Apple Maps</a>
               <a class="map-link" href="https://maps.google.com/?q=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Google Maps</a>
@@ -459,7 +411,7 @@
           <div class="event-name">Felles gange til Mysterud 🚶</div>
           <div class="event-detail">
             Ca. 10 min gange langs Akerselva
-            <div class="map-links" style="margin-top: 0.5rem;">
+            <div class="map-links">
               <a class="map-link" href="https://maps.apple.com/?saddr=Sandakerveien+3,+Oslo&daddr=Arendalsgata+18,+Oslo&dirflg=w" target="_blank" rel="noopener">🍎 Apple Maps</a>
               <a class="map-link" href="https://maps.google.com/maps?saddr=Sandakerveien+3,+0473+Oslo&daddr=Arendalsgata+18,+0463+Oslo&dirflg=w" target="_blank" rel="noopener">📍 Google Maps</a>
             </div>
@@ -481,79 +433,34 @@
       </div>
     </div>
 
-    <div class="info-cards">
-      <div class="info-card">
-        <div class="info-title">🎒 Ta med</div>
-        <ul class="info-list">
-          <li>Badetøy (påbudt i badstua)</li>
-          <li>Håndkle til tørk</li>
-          <li>Håndkle å sitte på i badstua</li>
-          <li>Vannflaske</li>
-          <li>Hengelås til verdisaker</li>
-          <li>Badehette ved langt hår</li>
-        </ul>
-        <div class="info-note">📵 Mobilfri sone – telefon legges i garderoben.</div>
-      </div>
-      <div class="info-card">
-        <div class="info-title">ℹ️ Viktig å vite</div>
-        <ul class="info-list">
-          <li>90 min inkl. skifting</li>
-          <li>Forlat badstua 15 min før slutt</li>
-          <li>Dusj naken før basseng</li>
-          <li>Blandet (kjønnsnøytral)</li>
-          <li>Ingen alkohol eller glassflasker</li>
-          <li>Bruk innestemme</li>
-        </ul>
-        <div class="info-note">All bading skjer på eget ansvar.</div>
-      </div>
+    <!-- MAT -->
+    <div class="food-note">
+      🍕 På Mysterud blir det pizza fra <a href="https://www.jungelpizza.no/jungel-pizza-sagene/" target="_blank" rel="noopener">Jungel Pizza</a>, snacks og en velkomstdrink. Ingen grunn til å spise før du kommer.
     </div>
 
-    <div class="info-cards" style="margin-top: -1.25rem;">
-      <div class="info-card">
-        <div class="info-title">💳 Pris</div>
-        <div class="price-row"><span>Ikke-medlem</span><span>260 kr</span></div>
-        <div class="price-row"><span>Medlem</span><span>150 kr</span></div>
-        <div class="info-note">Betales ved inngang. Husk å booke plass på forhånd.</div>
-      </div>
-      <div class="info-card" style="background: var(--accent-light); border-color: var(--accent);">
-        <div class="info-title" style="color: var(--accent);">⏰ Ankom tidlig</div>
-        <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-          Ankom gjerne <strong style="color: var(--fg);">10–15 min før kl. 16</strong> slik at du rekker å bytte og finne deg til rette før badstua starter.
-        </div>
-      </div>
-    </div>
+    <!-- BOOKING -->
+    <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
+      Book badstuplass →
+    </a>
+    <p class="cta-note" id="bookingNote">
+      Badstuplassen må bookes på forhånd – bestilling åpner <strong>19. september 2026</strong>.
+    </p>
 
-    <div class="transit-card">
-      <div class="transit-title">🚇 Kollektivtransport til Sagene folkebad</div>
-      <div class="transit-rows">
-        <div class="transit-item">
-          <span class="transit-badge">T5</span>
-          T-bane til Storo → ca. 10 min gange
-        </div>
-        <div class="transit-item">
-          <span class="transit-badge">37</span>
-          Buss til Sandakerveien → 2 min gange
-        </div>
-      </div>
-    </div>
+    <script>
+      (function () {
+        var opensAt = new Date('2026-09-19T00:00:00');
+        var btn = document.getElementById('bookingBtn');
+        var note = document.getElementById('bookingNote');
+        if (new Date() >= opensAt) {
+          btn.classList.remove('disabled');
+          note.innerHTML = 'Badstuplassen må bookes på forhånd. Lenken tar deg direkte til riktig tid.';
+        }
+      })();
+    </script>
 
-    <div class="map-card">
-      <div class="map-label">🚶 Gå-rute: Sagene folkebad → Mysterud Bar (~10 min)</div>
-      <iframe
-        src="https://maps.google.com/maps?saddr=Sandakerveien+3,+0473+Oslo&daddr=Arendalsgata+18,+0463+Oslo&dirflg=w&output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        title="Gå-rute fra Sagene folkebad til Mysterud Bar">
-      </iframe>
-    </div>
-
-
-<div class="food-note">
-      🍕 På Mysterud blir det pizza fra <a href="https://www.jungelpizza.no/jungel-pizza-sagene/" target="_blank" rel="noopener" style="color:var(--accent);">Jungel Pizza</a>, snacks og en velkomstdrink. Ingen grunn til å spise før du kommer.
-    </div>
-
+    <!-- KALENDER -->
     <div class="cal-section">
-      <div class="cal-label">Legg til i kalender</div>
+      <div class="section-label">Legg til i kalender</div>
 
       <a class="cal-apple" href="webcal://trulsaagaard.com/40/event.ics">
         🍎 Apple Calendar – legg til begge eventer
@@ -584,30 +491,78 @@
       </div>
     </div>
 
-    <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
-      Book badstuplass →
-    </a>
-    <p class="cta-note" id="bookingNote">
-      Badstuplassen må bookes på forhånd – bestilling åpner <strong>19. september 2026</strong>.
-    </p>
+    <!-- PRAKTISK OM BADSTU -->
+    <div class="section-label">Praktisk om badstua</div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-title">🎒 Ta med</div>
+        <ul class="info-list">
+          <li>Badetøy (påbudt i badstua)</li>
+          <li>Håndkle til tørk</li>
+          <li>Håndkle å sitte på</li>
+          <li>Vannflaske</li>
+          <li>Hengelås til verdisaker</li>
+          <li>Badehette ved langt hår</li>
+        </ul>
+        <div class="info-note">📵 Mobilfri sone – telefon legges i garderoben.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-title">ℹ️ Viktig å vite</div>
+        <ul class="info-list">
+          <li>90 min inkl. skifting</li>
+          <li>Forlat badstua 15 min før slutt</li>
+          <li>Dusj naken før basseng</li>
+          <li>Blandet (kjønnsnøytral)</li>
+          <li>Ingen alkohol eller glass</li>
+          <li>Bruk innestemme</li>
+        </ul>
+        <div class="info-note">All bading skjer på eget ansvar.</div>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-title">💳 Pris</div>
+        <div class="price-row"><span>Ikke-medlem</span><span>260 kr</span></div>
+        <div class="price-row"><span>Medlem</span><span>150 kr</span></div>
+        <div class="info-note">Betales ved inngang.</div>
+      </div>
+      <div class="info-card" style="background: var(--accent-light); border-color: var(--accent);">
+        <div class="info-title" style="color: var(--accent);">⏰ Ankom tidlig</div>
+        <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
+          Ankom gjerne <strong style="color: var(--fg);">10–15 min før kl. 16</strong> slik at du rekker å bytte og finne deg til rette.
+        </div>
+      </div>
+    </div>
 
-    <script>
-      (function () {
-        var opensAt = new Date('2026-09-19T00:00:00');
-        var btn = document.getElementById('bookingBtn');
-        var note = document.getElementById('bookingNote');
-        if (new Date() >= opensAt) {
-          btn.classList.remove('disabled');
-          note.innerHTML = 'Badstuplassen må bookes på forhånd. Lenken tar deg direkte til riktig tid.';
-        }
-      })();
-    </script>
+    <!-- KOLLEKTIV + KART -->
+    <div class="transit-card">
+      <div class="transit-title">🚇 Kollektivtransport til Sagene folkebad</div>
+      <div class="transit-rows">
+        <div class="transit-item">
+          <span class="transit-badge">T5</span>
+          T-bane til Storo → ca. 10 min gange
+        </div>
+        <div class="transit-item">
+          <span class="transit-badge">37</span>
+          Buss til Sandakerveien → 2 min gange
+        </div>
+      </div>
+    </div>
 
+    <div class="map-card">
+      <div class="map-label">🚶 Gå-rute: Sagene folkebad → Mysterud Bar (~10 min)</div>
+      <iframe
+        src="https://maps.google.com/maps?saddr=Sandakerveien+3,+0473+Oslo&daddr=Arendalsgata+18,+0463+Oslo&dirflg=w&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Gå-rute fra Sagene folkebad til Mysterud Bar">
+      </iframe>
+    </div>
+
+    <!-- KONTAKT -->
     <hr class="divider" />
+    <p class="contact">Spørsmål? Send en melding til Truls.</p>
 
-    <p class="contact">
-      Spørsmål? Send en melding til Truls.
-    </p>
   </main>
 </body>
 </html>
