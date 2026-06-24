@@ -227,6 +227,13 @@
 
     .cta:hover { opacity: 0.88; }
 
+    .cta.disabled {
+      background: var(--border);
+      color: var(--muted);
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
     .cta-note {
       font-size: 0.8rem;
       color: var(--muted);
@@ -420,13 +427,24 @@
       </div>
     </div>
 
-    <a class="cta" href="https://oslobadstuforening.no/en/sagene-folkebad/" target="_blank" rel="noopener">
+    <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
       Book badstuplass →
     </a>
-    <p class="cta-note">
-      Badstuplassen må bookes på forhånd.<br>
-      Velg lørdag 3. oktober, kl. 16.
+    <p class="cta-note" id="bookingNote">
+      Badstuplassen må bookes på forhånd – bestilling åpner <strong>19. september 2026</strong>.
     </p>
+
+    <script>
+      (function () {
+        var opensAt = new Date('2026-09-19T00:00:00');
+        var btn = document.getElementById('bookingBtn');
+        var note = document.getElementById('bookingNote');
+        if (new Date() >= opensAt) {
+          btn.classList.remove('disabled');
+          note.innerHTML = 'Badstuplassen må bookes på forhånd. Lenken tar deg direkte til riktig tid.';
+        }
+      })();
+    </script>
 
     <hr class="divider" />
 
