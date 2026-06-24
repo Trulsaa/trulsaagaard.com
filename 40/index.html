@@ -313,6 +313,102 @@
       background: var(--accent-light);
     }
 
+    .info-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 420px) {
+      .info-cards { grid-template-columns: 1fr; }
+    }
+
+    .info-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      background: var(--card);
+    }
+
+    .info-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+      color: var(--fg);
+    }
+
+    .info-list {
+      list-style: none;
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.9;
+      margin-bottom: 0.6rem;
+    }
+
+    .info-list li::before { content: "· "; }
+
+    .info-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+      border-top: 1px solid var(--border);
+      padding-top: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--muted);
+      padding: 0.25rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .price-row:last-of-type { border-bottom: none; }
+
+    .price-row span:last-child { font-weight: 600; color: var(--fg); }
+
+    .transit-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      background: var(--card);
+      margin-bottom: 0.75rem;
+    }
+
+    .transit-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--fg);
+      margin-bottom: 0.75rem;
+    }
+
+    .transit-rows { display: flex; flex-direction: column; gap: 0.5rem; }
+
+    .transit-item {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .transit-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      border-radius: 4px;
+      padding: 0.15rem 0.4rem;
+      flex-shrink: 0;
+      min-width: 2rem;
+    }
+
     .divider {
       border: none;
       border-top: 1px solid var(--border);
@@ -368,6 +464,38 @@
               <a class="map-link" href="https://maps.google.com/?q=Mysterud+Bar,+Arendalsgata+18,+Oslo" target="_blank" rel="noopener">Google Maps</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-title">🎒 Ta med til badstua</div>
+        <ul class="info-list">
+          <li>Håndkle</li>
+          <li>Badebukse eller bikini</li>
+          <li>Sandaler (valgfritt)</li>
+        </ul>
+        <div class="info-note">Badstua er blandet. Ankom gjerne 10–15 min tidlig for å bytte.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-title">💳 Pris badstu</div>
+        <div class="price-row"><span>Ikke-medlem</span><span>260 kr</span></div>
+        <div class="price-row"><span>Medlem</span><span>150 kr</span></div>
+        <div class="info-note">Betales ved inngang. Husk å booke plass på forhånd.</div>
+      </div>
+    </div>
+
+    <div class="transit-card">
+      <div class="transit-title">🚇 Kollektivtransport til Sagene folkebad</div>
+      <div class="transit-rows">
+        <div class="transit-item">
+          <span class="transit-badge">T5</span>
+          T-bane til Storo → ca. 10 min gange
+        </div>
+        <div class="transit-item">
+          <span class="transit-badge">37</span>
+          Buss til Sandakerveien → 2 min gange
         </div>
       </div>
     </div>
