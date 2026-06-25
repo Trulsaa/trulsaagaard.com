@@ -12,6 +12,11 @@ DESCRIPTION:Del av 40-årsfeiringen til Truls.\n\ntrulsaagaard.com/40
 LOCATION:Sagene folkebad\, Sandakerveien 3\, 0473 Oslo
 URL:https://trulsaagaard.com/40
 STATUS:CONFIRMED
+X-APPLE-DEFAULT-ALARM:FALSE
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:truls40-mysterud@trulsaagaard.com
@@ -22,5 +27,10 @@ DESCRIPTION:Pizza fra Jungel Pizza og snacks.\n\ntrulsaagaard.com/40
 LOCATION:Mysterud Bar\, Arendalsgata 18\, 0463 Oslo
 URL:https://trulsaagaard.com/40
 STATUS:CONFIRMED
+X-APPLE-DEFAULT-ALARM:FALSE
+BEGIN:VALARM
+ACTION:NONE
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+END:VALARM
 END:VEVENT
 END:VCALENDAR
