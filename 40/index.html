@@ -344,6 +344,7 @@
             <div class="map-links">
               <a class="map-link" href="https://maps.apple.com/?q=Sagene+folkebad&address=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Apple Maps</a>
               <a class="map-link" href="https://maps.google.com/?q=Sandakerveien+3,+0473+Oslo" target="_blank" rel="noopener">Google Maps</a>
+              <a id="badstuBookBtn" class="map-link" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener" style="display: none; background: var(--accent); color: #fff; border-color: var(--accent);">Book plass</a>
             </div>
           </div>
         </div>
@@ -389,13 +390,6 @@
         </div>
       </div>
       <div class="program-item">
-        <div class="time">Kl. 20</div>
-        <div>
-          <div class="event-name">Voksenbrus og snacks 🥂</div>
-          <div class="event-detail">På Mysterud Bar</div>
-        </div>
-      </div>
-      <div class="program-item">
         <div class="time">Kl. 01</div>
         <div>
           <div class="event-name">Stengetid 🌙</div>
@@ -405,21 +399,24 @@
     </div>
 
     <!-- BOOKING -->
-    <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
-      Book badstuplass →
-    </a>
     <p class="cta-note" id="bookingNote">
-      Badstuplassen må bookes på forhånd – bestilling åpner <strong>19. september 2026</strong>.
+      Mitt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner <strong>19. september 2026</strong>. Da vil også knappen under bli mulig å trykke på.<br>
     </p>
+
+    <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
+      Book badstuplass lørdag 3. oktober, kl. 16 →
+    </a>
 
     <script>
       (function () {
         var opensAt = new Date('2026-09-19T00:00:00');
         var btn = document.getElementById('bookingBtn');
         var note = document.getElementById('bookingNote');
+        var badstuBtn = document.getElementById('badstuBookBtn');
         if (new Date() >= opensAt) {
           btn.classList.remove('disabled');
-          note.innerHTML = 'Badstuplassen må bookes på forhånd. Lenken tar deg direkte til riktig tid.';
+          note.innerHTML = 'Mitt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner 19. september 2026.<br><br>Velg lørdag 3. oktober, kl. 16.';
+          badstuBtn.style.display = 'inline-block';
         }
       })();
     </script>
@@ -428,6 +425,7 @@
     <div class="info-card" style="margin-bottom: 2.5rem;">
       <div class="info-title">🎒 Praktisk om badstua</div>
       <ul class="info-list">
+        <li>Det er både dusjer å bli ordentlig ren i og flotte garderopber å kunne skifte i</li>
         <li>Badetøy (påbudt i badstua)</li>
         <li>Håndkle til tørk</li>
         <li>Håndkle å sitte på</li>
@@ -457,8 +455,8 @@
       <div class="info-card">
         <div class="info-title">🎁 Gave</div>
         <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-          Din tilstedeværelse er gave nok. Det er dessverre ikke fri bar denne kvelden.<br><br>
-          Hvis du likevel vil gjøre noe ekstra, sett gjerne et glass til en av de andre hyggelige gjestene.
+          At dere blir med meg på badstu og noen øl etterpå setter jeg stor pris på og er akkurat det jeg ønsker meg i gave.<br><br>
+          Hvis du likevel vil gjøre noe ekstra utover å uandel i barene til deg selv, sett gjerne et glass til en av de andre hyggelige gjestene du blir kjent med denne kvelden.
         </div>
       </div>
     </div>
