@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Truls fyller 40 🎉</title>
+  <title>Truls &amp; Aleksander fyller 40 🎉</title>
   <meta name="robots" content="noindex, nofollow" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -63,7 +63,47 @@
       margin-bottom: 0.5rem;
     }
 
-    .subtitle { font-size: 1rem; color: var(--muted); margin-bottom: 2.5rem; }
+    .subtitle { font-size: 1rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; }
+
+    /* ── JUBILANTENE ── */
+    .hosts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (max-width: 480px) {
+      .hosts { grid-template-columns: 1fr; }
+    }
+
+    .host {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.9rem 1.1rem;
+      background: var(--card);
+      text-align: center;
+    }
+
+    .host-name {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .host-date {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .host-age {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
 
     /* ── PROGRAM ── */
     .program {
@@ -274,6 +314,55 @@
       margin-top: 0.5rem;
     }
 
+    /* ── GJESTELISTE ── */
+    .guests { margin-bottom: 2.5rem; }
+
+    .guest-count {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 0.9rem;
+    }
+
+    .guest-count strong { color: var(--accent); }
+
+    .guest-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.35rem 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+      padding: 1rem 1.1rem;
+    }
+
+    @media (max-width: 480px) {
+      .guest-list { grid-template-columns: 1fr; }
+    }
+
+    .guest-list li {
+      line-height: 1.5;
+      padding-left: 0.85rem;
+      position: relative;
+    }
+
+    .guest-list li::before {
+      content: "·";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    .guest-note {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-top: 0.75rem;
+    }
+
     /* ── KONTAKT ── */
     .divider {
       border: none;
@@ -295,9 +384,12 @@
     <!-- HEADER -->
     <div class="header">
       <div class="eyebrow">Lørdag 3. oktober 2026</div>
-      <h1>Truls fyller 40 🎉</h1>
+      <h1>Truls &amp; Aleksander fyller 40 🎉</h1>
     </div>
-    <p class="subtitle">Badstu, pizza og god stemning – du er invitert!</p>
+    <p class="subtitle">
+      Aleksander rundet 40 i mars, Truls gjør det i oktober – så vi slår oss sammen
+      og tar én skikkelig feiring. Badstu, pizza og god stemning – du er invitert!
+    </p>
 
     <!-- KALENDER -->
     <div class="cal-section">
@@ -310,10 +402,10 @@
       <div class="cal-event-group">
         <div class="cal-event-label">🧖 Badstu kl. 16:00 til 17:30</div>
         <div class="cal-grid">
-          <a class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Truls+40+%E2%80%93+Badstu+p%C3%A5+Sagene+folkebad&dates=20261003T140000Z%2F20261003T160000Z&details=Del+av+40-%C3%A5rsfeiringen+til+Truls.&location=Sandakerveien+3%2C+Oslo" target="_blank" rel="noopener">
+          <a class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Truls+%26+Aleksander+40+%E2%80%93+Badstu+p%C3%A5+Sagene+folkebad&dates=20261003T140000Z%2F20261003T160000Z&details=Del+av+40-%C3%A5rsfeiringen+til+Truls+og+Aleksander.&location=Sandakerveien+3%2C+Oslo" target="_blank" rel="noopener">
             📅 Google ↗
           </a>
-          <a class="cal-btn" href="https://outlook.live.com/calendar/0/deeplink/compose?subject=Truls+40+%E2%80%93+Badstu&startdt=2026-10-03T16%3A00%3A00&enddt=2026-10-03T18%3A00%3A00&location=Sandakerveien+3%2C+Oslo" target="_blank" rel="noopener">
+          <a class="cal-btn" href="https://outlook.live.com/calendar/0/deeplink/compose?subject=Truls+%26+Aleksander+40+%E2%80%93+Badstu&startdt=2026-10-03T16%3A00%3A00&enddt=2026-10-03T18%3A00%3A00&location=Sandakerveien+3%2C+Oslo" target="_blank" rel="noopener">
             📧 Outlook ↗
           </a>
         </div>
@@ -322,10 +414,10 @@
       <div class="cal-event-group">
         <div class="cal-event-label">🍻 Mysterud Bar kl. 18:00 til 01:00</div>
         <div class="cal-grid">
-          <a class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Truls+40+%E2%80%93+Mysterud+Bar&dates=20261003T160000Z%2F20261003T230000Z&details=Pizza+fra+Jungel+Pizza+og+snacks.&location=Arendalsgata+18%2C+Oslo" target="_blank" rel="noopener">
+          <a class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Truls+%26+Aleksander+40+%E2%80%93+Mysterud+Bar&dates=20261003T160000Z%2F20261003T230000Z&details=Pizza+fra+Jungel+Pizza+og+snacks.&location=Arendalsgata+18%2C+Oslo" target="_blank" rel="noopener">
             📅 Google ↗
           </a>
-          <a class="cal-btn" href="https://outlook.live.com/calendar/0/deeplink/compose?subject=Truls+40+%E2%80%93+Mysterud+Bar&startdt=2026-10-03T18%3A00%3A00&enddt=2026-10-04T01%3A00%3A00&location=Arendalsgata+18%2C+Oslo" target="_blank" rel="noopener">
+          <a class="cal-btn" href="https://outlook.live.com/calendar/0/deeplink/compose?subject=Truls+%26+Aleksander+40+%E2%80%93+Mysterud+Bar&startdt=2026-10-03T18%3A00%3A00&enddt=2026-10-04T01%3A00%3A00&location=Arendalsgata+18%2C+Oslo" target="_blank" rel="noopener">
             📧 Outlook ↗
           </a>
         </div>
@@ -400,7 +492,7 @@
 
     <!-- BOOKING -->
     <p class="cta-note" id="bookingNote">
-      Mitt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner <strong>19. september 2026</strong>. Da vil også knappen under bli mulig å trykke på.<br>
+      Vårt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner <strong>19. september 2026</strong>. Da vil også knappen under bli mulig å trykke på.<br>
     </p>
 
     <a id="bookingBtn" class="cta disabled" href="https://minside.periode.no/booking/1cKim9HkbQPgrbXOr8ad/5g1XRrzmR9bM0CiukRFx/2026-10-03/16:00" target="_blank" rel="noopener">
@@ -415,7 +507,7 @@
         var badstuBtn = document.getElementById('badstuBookBtn');
         if (new Date() >= opensAt) {
           btn.classList.remove('disabled');
-          note.innerHTML = 'Mitt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner 19. september 2026.<br><br>Velg lørdag 3. oktober, kl. 16.';
+          note.innerHTML = 'Vårt håp er at flest mulig får plass i badstua. Men det er kun 38 plasser tilgjengelig. Så book så tidlig som mulig for å sikre at du får blitt med. Bestilling åpner 19. september 2026.<br><br>Velg lørdag 3. oktober, kl. 16.';
           badstuBtn.style.display = 'inline-block';
         }
       })();
@@ -458,15 +550,67 @@
       <div class="info-card">
         <div class="info-title">🎁 Gave</div>
         <div style="font-size: 0.85rem; color: var(--muted); line-height: 1.6;">
-          At dere blir med meg på badstu og noen øl etterpå setter jeg stor pris på og er akkurat det jeg ønsker meg i gave.<br><br>
+          At dere blir med oss på badstu og noen øl etterpå setter vi stor pris på, og er akkurat det vi ønsker oss i gave.<br><br>
           Hvis du likevel vil gjøre noe ekstra utover å handle i barene til deg selv, sett gjerne et glass til en av de andre hyggelige gjestene du blir kjent med denne kvelden.
         </div>
       </div>
     </div>
 
+    <!-- GJESTELISTE -->
+    <div class="guests">
+      <div class="section-label">Hvem kommer</div>
+      <p class="guest-count">
+        Så langt er <strong id="guestCount">–</strong> gjester påmeldt, i tillegg til oss to.
+        Kjenner du ingen fra før? Da er du i godt selskap – det gjør ikke alle her.
+      </p>
+      <ul class="guest-list" id="guestList">
+        <li>Silje Bjørthun</li>
+        <li>Jørn Aagaard</li>
+        <li>Nanna Aagaard</li>
+        <li>Reidar Marin Berg</li>
+        <li>Helene</li>
+        <li>Jens Martin Dahlum</li>
+        <li>Hanna Marie Lund</li>
+        <li>Line Kimer</li>
+        <li>Sébastien Milongo</li>
+        <li>Anders Lund</li>
+        <li>Gurpinder Kaur Ramana</li>
+        <li>Jørgen Rieck</li>
+        <li>Silje Bentzen</li>
+        <li>Kim Einar Aabol</li>
+        <li>Marthe Svanevik</li>
+        <li>Halvor Moe Bjørnstad</li>
+        <li>Eero Bekkedal</li>
+        <li>Jim Røhr Evensen</li>
+        <li>Sindre Toft Nordal</li>
+        <li>Tommy Mikalsen</li>
+        <li>Vegard Skullestad Bjørkgård</li>
+        <li>Marianne Wiik Øberg</li>
+        <li>Eirik Frantzen</li>
+        <li>Tor Egil Øen</li>
+        <li>Anja Bjørthun</li>
+        <li>John Fredrik Hansen</li>
+        <li>Frida Bjørthun</li>
+      </ul>
+      <p class="guest-note">
+        Lista viser dem som har bekreftet, og oppdateres etter hvert som flere svarer.
+        Mangler du på lista? Send oss en melding, så fikser vi det.
+      </p>
+    </div>
+
+    <script>
+      (function () {
+        var list = document.getElementById('guestList');
+        var count = document.getElementById('guestCount');
+        if (list && count) {
+          count.textContent = list.getElementsByTagName('li').length;
+        }
+      })();
+    </script>
+
     <!-- KONTAKT -->
     <hr class="divider" />
-    <p class="contact">Spørsmål? Send en melding til Truls.</p>
+    <p class="contact">Spørsmål? Send en melding til Truls eller Aleksander.</p>
 
   </main>
 </body>
